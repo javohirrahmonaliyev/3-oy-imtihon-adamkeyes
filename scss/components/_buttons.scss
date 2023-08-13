@@ -1,0 +1,34 @@
+.btn {
+  color: var(--white, #fff);
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 2.286px;
+}
+.btn:hover {
+  color: $light-green-color;
+  transition: 0.4s;
+}
+.btn:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #4ee1a0;
+  bottom: 8px;
+  left: 0;
+  transition: 0.4s;
+}
+
+.first-rectengle {
+  width: 138px;
+  height: 2px;
+  background: var(--green, #4ee1a0);
+}
+.second-rectengle {
+  width: 103px;
+  height: 2px;
+  background: var(--green, #4ee1a0);
+}

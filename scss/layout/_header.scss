@@ -1,0 +1,26 @@
+.header {
+  padding-top: 4rem;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.sitenav__list {
+  display: flex;
+  gap: 3.2rem;
+}
+@media screen and (max-width: 820px) {
+  .header__container {
+    .sitenav__list {
+      margin-top: 3rem;
+    }
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    // margin-left: 220px;
+  }
+}

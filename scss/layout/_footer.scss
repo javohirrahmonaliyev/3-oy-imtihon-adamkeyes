@@ -1,0 +1,31 @@
+.footer {
+  background: #242424;
+}
+.footer__container {
+  padding-bottom: 9.2rem;
+  padding-top: 4.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list {
+  display: flex;
+  gap: 3.2rem;
+}
+.footer-rectengle {
+  width: 1050px;
+  height: 1px;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1200px) {
+  .footer-rectengle {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer-rectengle {
+    width: 343px;
+  }
+}
+@media screen and (max-width: 1200px) {
+}
